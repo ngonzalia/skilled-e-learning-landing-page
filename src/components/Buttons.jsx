@@ -1,9 +1,9 @@
 const Button = (props) => {
   return (
-    <button className={`btn btn-${props.type} btn-text`}>
-      <span className={ props.type === 'hero' ? 'btn-text-sm' : '' }>
+    <button className={`btn btn-${props.type}`}>
+      <a href='https://github.com/ngonzalia' target='_blank' className={ props.type === 'hero' ? 'btn-text btn-text-sm' : 'btn-text' }>
         Get Started
-      </span>
+      </a>
     </button>
   )
 }

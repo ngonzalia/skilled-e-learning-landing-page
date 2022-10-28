@@ -48,7 +48,8 @@
 // buttons
 .btn-text {
   font-weight: 700;
-  color: #FFF;
+  color: #FFF !important;
+  text-decoration: none !important;
 
   // nav and footer buttons
   font-size: 1rem;
