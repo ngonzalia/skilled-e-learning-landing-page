@@ -1,10 +1,10 @@
 const Button = (props) => {
   return (
-    <button className={`btn btn-${props.type}`}>
-      <a href='https://github.com/ngonzalia' target='_blank' className={ props.type === 'hero' ? 'btn-text btn-text-sm' : 'btn-text' }>
+    <a href='https://github.com/ngonzalia' target='_blank' className={`btn btn-${props.type} btn-text`}>
+      <span className={ props.type === 'hero' ? 'btn-text-sm' : '' }>
         Get Started
-      </a>
-    </button>
+      </span>
+    </a>
   )
 }
 

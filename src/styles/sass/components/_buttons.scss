@@ -5,6 +5,9 @@
   height: 3rem;
   padding-bottom: .063rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   // desktop
   @media (min-width: 1200px) {
     width: 10.438rem;
