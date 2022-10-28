@@ -1,0 +1,52 @@
+.cards {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  padding-bottom: 5rem;
+  // tablet
+  @media (min-width: 768px) {
+    padding-bottom: 5.375rem;
+  }
+  
+  &-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    // tablet
+    @media (min-width: 768px) {
+      margin: 13.125rem auto 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 3.5rem .625rem;
+      width: 43.063rem;
+    }
+    // desktop xl
+    @media (min-width: 1440px) {
+      margin: 15.625rem auto 0 auto;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 5rem 1.875rem;
+      width: 69.375rem;
+    }
+  }
+
+  &-subtitle {
+    height: 7.5rem;
+    width: 21.438rem;
+    padding: 1.5rem 1.813rem 2rem 1.125rem;
+    border-radius: .625rem;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    // tablet
+    @media (min-width: 768px) {
+      height: 16.188rem;
+      width: 21.188rem;
+      padding: 3.5rem 1.313rem 8.688rem 2rem;
+    }
+    // desktop xl
+    @media (min-width: 1440px) {
+      height: 20.125rem;
+      width: 21.875rem;
+      padding: 4rem 2rem 0 2rem;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+// main section
+.main-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  color: #13183F;
+
+  @media (min-width: 1200px) {
+    font-size: 3.5rem;
+    line-height: 4.438rem;
+  }
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #83869A;
+
+  @media (min-width: 1200px) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+
+// cards section
+.subtitle {
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #FFF;
+
+  @media (min-width: 1200px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+
+// buttons
+.btn-text {
+  font-weight: 700;
+  color: #FFF;
+
+  // nav and footer buttons
+  font-size: 1rem;
+  line-height: 1.75rem;
+
+  // hero button
+  &-sm {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  // desktop
+  @media(min-width: 1200px) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+
+// cards
+.card-title {
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  color: #13183F;
+
+  @media (min-width: 1440px) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+}
+
+.card-text {
+  font-weight: 500;
+  font-size: .94rem;
+  line-height: 1.625rem;
+  color: #83869A;
+  
+  @media (min-width: 1440px) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.card-link {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #F74780;
+  &:hover {
+    color: #FFA7C3;
+    transition: .4s;
+  }
+}
